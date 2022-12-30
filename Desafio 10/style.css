@@ -1,0 +1,103 @@
+@charset "utf-8";
+@font-face
+{
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(truetype);
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif; 
+    font-size: 16px;
+    background-color: #75E1BB;
+    margin: auto;
+}
+h1 {
+    font-family: idroid, sans-serif;
+}
+header {
+    background-image: linear-gradient(180deg, #30DBA0, #305C4C);
+    color: white;
+    text-align: center;
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;
+}
+ nav > a:hover{
+    background-image: linear-gradient(180deg, #25A87A 80%, rgb(31, 194, 26)) ;
+    border-radius: 20px;
+}
+header>h1 {
+    padding: 5px;
+}
+nav{
+    text-align: left;
+    padding-bottom: 4px;
+}
+nav > a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-align: left;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article > p > a{
+    background-color: #2abd1d65;
+    text-decoration: none;
+}
+article >p > a::after{
+    content: "🔗";
+}
+article > h1 {
+    background-image: linear-gradient(to right, rgba(24, 231, 24, 0.308) 5%, white 95%); 
+}
+section#video{
+    background-color: #305C4C;
+    text-align: center;
+    padding: 30px 10px ;
+    border: 0px;
+}
+aside.principal{
+    background-color: rgba(37, 226, 100, 0.26);
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+aside.principal > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #305C4C;
+    color: white;
+    
+}
+aside > ul{
+    font-weight: bold;
+}
+aside > p > a{
+    text-decoration: none;
+    color: #124208;
+    font-weight: bold;
+}
+aside >p > a::after{
+    content: "🔗";
+}
+footer {
+    background-color: #145C43;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin-top: 10px;
+}
+aside > ul > li>  abbr {
+    text-decoration: none;
+}

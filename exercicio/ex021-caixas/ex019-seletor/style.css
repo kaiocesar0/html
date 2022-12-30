@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+    Tudo que em HTML é id em CSS é #
+    Tudo que em HTML é class em CSS é .
+
+    Só pode ter um ID no docmento
+    Enquanto o class pode ser usado como preferir
+    <span class="basico">  usado para definir somente uma parte do codigo como uma classe
+*/
+
+body {
+    background-color: #B5BFF5;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: #B5BFF5(230, 136, 14);
+}
+h1#principal {
+    text-align: center;
+    background-color: #A2ABDB;
+    color: #282A36;
+}
+h2 {
+    color: #575B75;
+}
+
+.basico {
+    background-color: aquamarine;
+}
+.intermediario{
+    background-color: rgba(231, 231, 99, 0.884);
+}
+.avançado {
+    background-color: rgb(241, 129, 109);
+}
