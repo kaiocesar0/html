@@ -66,7 +66,7 @@ section.imagem {
     background-attachment: fixed;
 }
 section.imagem  pre{
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.356);
     display: inline-block;
     padding: 5px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
